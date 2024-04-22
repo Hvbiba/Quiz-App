@@ -1,0 +1,47 @@
+#interfacePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    box-shadow: 5px 5px 5px 5px #01735C;
+    padding: 20px 20px 40px 20px;
+    margin: 20px 0px 0px 450px;
+}
+#interfacePage div img {
+    padding: 15px;
+}
+#interfacePage  h3 {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+#interfacePage button{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px;
+}
+#interfacePage a{
+color: #ffffff;
+}
+@media (max-width: 576px){
+    #interfacePage{
+        margin: 30px 0px 10px 10px;
+        box-shadow: none;
+        width: 85%;
+    }
+    #interfacePage div img {
+        padding: 10px;
+        width: 250px;
+    }
+    #interfacePage  h3 {
+        font-size: 25px;
+        padding: 15px;
+    }
+    #interfacePage button{
+        width: 220px;
+        height: 50px;
+        margin: 10px;
+    }
+}
