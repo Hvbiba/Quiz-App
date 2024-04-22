@@ -27,20 +27,20 @@ color: #ffffff;
 }
 @media (max-width: 576px){
     #interfacePage{
-        margin: 37px 0px 10px 30px;
+        margin: 45px 0px 10px 30px;
         box-shadow: none;
         width: 85%;
     }
     #interfacePage div img {
-        padding: 10px;
-        width: 300px;
+        padding: 20px;
+        width: 330px;
     }
     #interfacePage  h3 {
         font-size: 27px;
         padding: 10px;
     }
     #interfacePage button{
-        width: 240px;
+        width: 270px;
         height: 55px;
         margin: 10px;
     }
